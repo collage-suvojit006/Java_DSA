@@ -41,7 +41,7 @@ public class PalindromeChecker_01 {
 //
 //    }
 
-    ///  method 2
+    ///  method 2  (two pointer Method)
 
     public  static  boolean palindromeChecker(String x){
          x = x.replace("+/*-" ,"").toLowerCase().trim();
