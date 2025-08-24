@@ -8,7 +8,11 @@ public class FibonacciSeriesRecursion_05 {
         int n =70;
 
         fibonaccciCache = new long[n+1];
-        System.out.println(fibonacci(n));
+        for(int i = 0;i<=n;i++){
+            System.out.print(fibonacci(i) + " ");
+        }
+
+        System.out.println("\n"+fibonacci(0));
 
     }
 
